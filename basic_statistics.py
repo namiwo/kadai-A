@@ -9,11 +9,13 @@ def main():
     min = int(num_list[0])
 
     for i in num_list:
-        sum += int(i)
-        if int(i) > max:
-            max = int(i)
-        if int(i) < min:
-            min = int(i)
+        inti = int(i)
+        I = inti
+        sum += I
+        if I > max:
+            max = I
+        if I < min:
+            min = I
     ave = sum / len(num_list)
 
     # 出力
